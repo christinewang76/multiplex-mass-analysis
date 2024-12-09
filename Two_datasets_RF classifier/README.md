@@ -10,5 +10,5 @@ A random forest classifier was implemented where parameters were obtained by gri
 Accuracy was measured by the area-under-the-curve (AUC) of a receiver operating characteristic (ROC) curve and a confusion matrix. 
 Out-of-bag (oob) score was used to assess model accuracy; KFold cross-validation was also included. 
 
-"PR8_function_library" contains the functions necessary to implement the main code "PR8_multiplex_crossval_FINAL".
+"PR8_function_library" contains the functions necessary to implement code "PR8_multiplex_crossval_FINAL".
 Analysis was performed using Python (v3.9.0) and the scikit-learn (v1.6) package.
