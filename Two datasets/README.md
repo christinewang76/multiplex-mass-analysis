@@ -7,5 +7,5 @@ Breath containing volatiles were measured by proton-transfer-reaction mass spect
 Two datasets from independent mice cohorts were collected, each containing healthy and PR8 mice. 
 One dataset is used as training and the other is used as testing. 
 A random forest classifier was implemented where parameters were obtained by gridsearchCV (cv=3).
-Accuracy was measured by AUC of a receiver operating characteristic (ROC) curve and a confusion matrix. 
+Accuracy was measured by the area-under-the-curve (AUC) of a receiver operating characteristic (ROC) curve and a confusion matrix. 
 Out-of-bag (oob) score was used to assess model accuracy; KFold cross-validation was also included. 
