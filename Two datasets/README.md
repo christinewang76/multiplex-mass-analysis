@@ -3,7 +3,7 @@ The intended results are to classify between healthy and disease cohorts by synt
 
 Here, a cohort contains known numbers of healthy and influenza A (PR8) infected mice. 
 Synthetic volatile signals were collected from the exhaled breath of mice 10 min after nanosensor administration. 
-Breath containing volatiles were measured by proton-transfer-reaction mass spectrometry, values indicate intensities. 
+Breath containing volatiles were measured by proton-transfer-reaction mass spectrometry and thus the values indicate intensities. 
 Two datasets from independent mice cohorts were collected, each containing healthy and PR8 mice. 
 One dataset is used as training and the other is used as testing. 
 A random forest classifier was implemented where parameters were obtained by gridsearchCV (cv=3).
