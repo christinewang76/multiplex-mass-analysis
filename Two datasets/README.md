@@ -9,3 +9,6 @@ One dataset is used as training and the other is used as testing.
 A random forest classifier was implemented where parameters were obtained by gridsearchCV (cv=3).
 Accuracy was measured by the area-under-the-curve (AUC) of a receiver operating characteristic (ROC) curve and a confusion matrix. 
 Out-of-bag (oob) score was used to assess model accuracy; KFold cross-validation was also included. 
+
+"PR8_function_library" contains the functions necessary to implement the main code "PR8_multiplex_crossval_FINAL".
+Analysis was performed using Python (v3.9.0) and the scikit-learn (v1.6) package.
